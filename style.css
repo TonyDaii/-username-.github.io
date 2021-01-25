@@ -1,0 +1,200 @@
+body {
+	font-family: arial;
+	margin:0;
+}
+
+
+.row{
+    display:flex;
+}
+
+
+nav{
+	display:flex;
+	height:70px;
+}
+
+
+.secondary-block {
+	color:white;
+	background-color:blueviolet;
+}
+
+
+a {
+	color:rgb(255,255,255);
+}
+
+
+nav h2 {
+	margin:0;
+	padding:20px 0px 20px 15px;
+}
+
+
+nav ul {
+	display:flex;
+	margin:0;
+	padding:24px;
+	list-style:none;
+}
+
+
+nav li {
+	margin-left:15px;
+}
+
+
+header{
+    text-align:center;
+    padding:40px;
+}
+
+
+
+
+
+header h2{
+    color:rgb(4,117,186);
+}
+
+
+header img{
+    width:150px;
+    border-radius:75px;
+    box-shadow:3px 3px 6px rgb(170,170,170);
+}
+
+
+section {
+	padding: 40px;
+}
+
+
+#xp ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+
+#xp li {
+	margin-bottom: 10px;
+}
+
+
+xp aside{
+	float:right;
+}
+
+
+#formation ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+
+#formation li{
+	margin-bottom: 10px;
+}
+
+
+#education li{
+    margin-bottom: 10px;
+}
+
+#formation aside{
+	float:right;
+}
+
+
+footer{
+	padding:40px;
+}
+
+
+footer ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+
+.links{
+	margin-bottom: 25px;
+	width:390px;
+	display:inline-block;
+}
+
+
+#profile ul{
+	list-style: none;
+}
+
+
+#profile li{
+	margin-bottom: 10px;
+}
+
+
+.h3gauche{
+    width: 90%;
+}
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: grey;
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c85{
+    width: 85%;
+    background-color: #8B8;
+}
+.c20{
+    width: 20%;
+    background-color: #4B8;
+}
+.c95{
+    width: 95%;
+    background-color: #4B8;
+}
+.c100{
+    width: 75%;
+    background-color: #4B8;
+    border-radius: 3px;
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 3px;
+    background-color: grey;
+}
+.c90{
+    width:50%;
+    background-color:#4b8;
+}
+.c65{
+    width: 65%;
+    background-color:#4b8;
+}
